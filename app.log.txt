@@ -1,0 +1,39 @@
+2025-08-06 19:25:44,731 - __main__ - INFO - Starting Enhanced Python Code Analyzer
+2025-08-06 19:25:44,888 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2025-08-06 19:25:44,889 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-06 19:25:49,714 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:25:49] "GET / HTTP/1.1" 200 -
+2025-08-06 19:25:50,035 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:25:50] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-06 19:25:50,190 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:25:50] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-08-06 19:25:50,922 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:25:50] "GET /health HTTP/1.1" 200 -
+2025-08-06 19:26:04,086 - __main__ - INFO - Processing code with action: check
+2025-08-06 19:26:04,088 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:26:04] "POST /process_code HTTP/1.1" 200 -
+2025-08-06 19:26:08,727 - __main__ - INFO - Processing code with action: lint
+2025-08-06 19:26:10,056 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:26:10] "POST /process_code HTTP/1.1" 200 -
+2025-08-06 19:26:15,831 - __main__ - INFO - Processing code with action: format
+2025-08-06 19:26:15,994 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:26:15] "POST /process_code HTTP/1.1" 200 -
+2025-08-06 19:26:19,671 - __main__ - INFO - Processing code with action: check
+2025-08-06 19:26:19,674 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:26:19] "POST /process_code HTTP/1.1" 200 -
+2025-08-06 19:26:53,427 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:26:53] "GET / HTTP/1.1" 200 -
+2025-08-06 19:26:53,482 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:26:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-06 19:26:53,497 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:26:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-06 19:26:54,111 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:26:54] "GET /health HTTP/1.1" 200 -
+2025-08-06 19:27:01,472 - __main__ - WARNING - Potentially dangerous code pattern detected: import os
+2025-08-06 19:27:01,472 - __main__ - WARNING - Potentially dangerous code pattern detected: import sys
+2025-08-06 19:27:01,472 - __main__ - INFO - Processing code with action: check
+2025-08-06 19:27:01,473 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:27:01] "POST /process_code HTTP/1.1" 200 -
+2025-08-06 19:27:06,263 - __main__ - WARNING - Potentially dangerous code pattern detected: import os
+2025-08-06 19:27:06,264 - __main__ - WARNING - Potentially dangerous code pattern detected: import sys
+2025-08-06 19:27:06,264 - __main__ - INFO - Processing code with action: complexity
+2025-08-06 19:27:06,282 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:27:06] "POST /process_code HTTP/1.1" 200 -
+2025-08-06 19:27:13,967 - __main__ - INFO - Processing code with action: complexity
+2025-08-06 19:27:14,009 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:27:14] "POST /process_code HTTP/1.1" 200 -
+2025-08-06 19:27:16,734 - __main__ - INFO - Processing code with action: format
+2025-08-06 19:27:16,843 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:27:16] "POST /process_code HTTP/1.1" 200 -
+2025-08-06 19:27:19,399 - __main__ - INFO - Processing code with action: lint
+2025-08-06 19:27:19,841 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:27:19] "POST /process_code HTTP/1.1" 200 -
+2025-08-06 19:27:22,168 - __main__ - INFO - Processing code with action: check
+2025-08-06 19:27:22,170 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:27:22] "POST /process_code HTTP/1.1" 200 -
+2025-08-06 19:27:25,163 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 19:27:25] "GET /health HTTP/1.1" 200 -

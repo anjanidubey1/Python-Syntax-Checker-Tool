@@ -1,0 +1,18 @@
+2025-08-22 11:14:50,500 - __main__ - INFO - Starting Enhanced Python Code Analyzer
+2025-08-22 11:14:50,534 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.127.73:5000
+2025-08-22 11:14:50,536 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-22 11:15:44,447 - __main__ - INFO - Starting Enhanced Python Code Analyzer
+2025-08-22 11:15:44,479 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.127.73:5000
+2025-08-22 11:15:44,493 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-22 19:17:29,383 - __main__ - INFO - Starting Enhanced Python Code Analyzer
+2025-08-22 19:17:29,407 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.127.73:5000
+2025-08-22 19:17:29,408 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
